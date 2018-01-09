@@ -1,0 +1,23 @@
+
+
+<suite name="TestNg-SuiteName" >
+ <test name="TestNg-TestName" group-by-instances="true" preserve-order="true">
+ <!-- 
+   <groups> 
+        <define name="All">
+         <include name="Car" /> 
+         <include name="Scooter" /> 
+        </define>
+	    <run> 
+		<include name="All" /> 
+	    </run> 
+	</groups>
+ -->
+ <classes>
+   <class name="PracticeTestNG.TestNG_Annotation1" />   
+   <class name="PracticeTestNG.TestNG_Annotation2" />
+   <!--  <class name="PracticeTestNG.Test_Grouping" /> --> 
+   <!-- <class name="PracticeTestNG.Test_Dependent" /> --> 
+ </classes>
+ </test>
+ </suite>
